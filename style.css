@@ -1,3 +1,40 @@
-body {
+@charset "utf-8";
 
+body {
+	background-color: darkolivegreen;
+}
+
+img {
+	border:5px dashed red;
+	border-radius: 50%;
+}
+
+img:hover {
+	border: 5px solid #024202;
+}
+
+h1 {
+	color:aqua;
+	text-decoration: underline dotted;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+ul{
+	list-style-type: none;
+	background-color:greenyellow;
+	width:200px;
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: blue;
+	padding: 8px 16px;
+}
+
+li a:hover{
+	background-color: white;
+	color:lightcoral;
 }
